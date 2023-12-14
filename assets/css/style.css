@@ -372,26 +372,15 @@ section {
   color: #45505b;
 }
 
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 120px;
-  height: 1px;
-  background: #ddd;
-  bottom: 1px;
-  left: calc(50% - 60px);
-}
-
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 40px;
+  width: 300px;
   height: 3px;
   background: #0563bb;
   bottom: 0;
-  left: calc(50% - 20px);
+  left: calc(50% - 150px);
 }
 
 .section-title p {
@@ -476,7 +465,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills Template
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -508,6 +497,47 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
+  background-color: #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+
+.skills-icon-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-icon-item {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.skills-icon-label {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.skills-icon-img {
+  max-height: 100px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-pills .nav-link {
+  border: #0563bb
+}
+
+.nav-pills .nav-link.active {
   background-color: #0563bb;
 }
 
@@ -792,6 +822,25 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Card
+--------------------------------------------------------------*/
+
+.portfolio-card-custom-border {
+  border-color: #0563bb;
+}
+
+.portfolio-btn-custom {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: fit-content;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
