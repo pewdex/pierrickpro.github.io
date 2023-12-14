@@ -74,6 +74,7 @@ const tabData = {
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
         { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
         { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
+        { iconSrc: "assets/img/skills/dbt.svg", label: "dbt", altText: "dbt" },
         { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
         { iconSrc: "assets/img/skills/sql-server.svg", label: "SQL Server", altText: "SQL Server" },
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },

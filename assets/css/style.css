@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #728394;
   color: #fff;
 }
 
@@ -843,6 +843,11 @@ section {
   margin-bottom: 10px;
 }
 
+.portfolio-btn-custom:hover {
+  background-color: #728394;
+  color: #ffffff;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1184,7 +1189,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0678e3;
+  background: #728394;
 }
 
 @keyframes animate-loading {
@@ -1244,7 +1249,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #728394;
   color: #fff;
   text-decoration: none;
 }
