@@ -54,6 +54,8 @@ function openTab(evt, tabName) {
 
 // Customize this function to return an array of icon sources, labels, and alt text for each tab
 const tabData = {
+    all: [
+    ],
     programming: [
         { iconSrc: "assets/img/skills/css.svg", label: "CSS", altText: "CSS" },
         { iconSrc: "assets/img/skills/html.svg", label: "HTML", altText: "HTML" },
@@ -64,16 +66,10 @@ const tabData = {
         { iconSrc: "assets/img/skills/python.svg", label: "Python", altText: "Python" }
     ],
     web: [
-        { iconSrc: "path/to/web-icon1.png", label: "Web Technology 1", altText: "Web Technology 1" },
-        { iconSrc: "path/to/web-icon2.png", label: "Web Technology 2", altText: "Web Technology 2" }
     ],
     tools: [
-        { iconSrc: "path/to/tools-icon1.png", label: "Tool 1", altText: "Tool 1" },
-        { iconSrc: "path/to/tools-icon2.png", label: "Tool 2", altText: "Tool 2" }
     ],
     "data-analytics": [
-        { iconSrc: "path/to/tools-icon1.png", label: "Data Analytics 1", altText: "Data Analytics 1" },
-        { iconSrc: "path/to/tools-icon2.png", label: "Data Analytics 2", altText: "Data Analytics 2" }
     ],
 };
 
