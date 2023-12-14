@@ -68,7 +68,7 @@ const tabData = {
         { iconSrc: "assets/img/skills/css.svg", label: "CSS", altText: "CSS" },
         { iconSrc: "assets/img/skills/html.svg", label: "HTML", altText: "HTML" },
         
-        { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
+        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
         { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
         { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
@@ -82,7 +82,7 @@ const tabData = {
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
         { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
         { iconSrc: "assets/img/skills/jira.svg", label: "Jira", altText: "Jira" },
-        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
+        { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
         { iconSrc: "assets/img/skills/google-app-script.svg", label: "Google App Script", altText: "Google App Script" },
         { iconSrc: "assets/img/skills/gitlab.svg", label: "GitLab", altText: "GitLab" },
         { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
