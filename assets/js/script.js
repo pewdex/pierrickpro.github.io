@@ -115,6 +115,8 @@ const tabData = {
         { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
         { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
+        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
+        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" }
     ],
     tools: [
         { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
