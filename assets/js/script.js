@@ -126,8 +126,6 @@ const tabData = {
         { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" }
     ],
     "data-analytics": [
-        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
-        { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
         { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
         { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
         { iconSrc: "assets/img/skills/dbt.svg", label: "dbt", altText: "dbt" },
@@ -135,7 +133,6 @@ const tabData = {
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
-        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" }
     ],
 };
 
