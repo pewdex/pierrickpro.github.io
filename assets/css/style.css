@@ -830,6 +830,7 @@ section {
 
 .portfolio-card-custom-border {
   border-color: #5eada8;
+  height: min-content;
 }
 
 .portfolio-btn-custom {
