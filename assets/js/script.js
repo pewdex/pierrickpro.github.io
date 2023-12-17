@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // Customize this function to return an array of icon sources, labels, and alt text for each tab
 const tabData = {
     all: [
-        { iconSrc: "assets/img/skills/js.svg", label: "JS", altText: "JS" },
-        { iconSrc: "assets/img/skills/ts.svg", label: "TS", altText: "TS" },
+        { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
+        { iconSrc: "assets/img/skills/ts.svg", label: "TypeScript", altText: "TypeScript" },
         { iconSrc: "assets/img/skills/java.svg", label: "Java", altText: "Java" },
         { iconSrc: "assets/img/skills/csharp.svg", label: "C#", altText: "C#" },
         { iconSrc: "assets/img/skills/python.svg", label: "Python", altText: "Python" },
@@ -96,8 +96,8 @@ const tabData = {
     ],
     programming: [
         { iconSrc: "assets/img/skills/csharp.svg", label: "C#", altText: "C#" },
-        { iconSrc: "assets/img/skills/js.svg", label: "JS", altText: "JS" },
-        { iconSrc: "assets/img/skills/ts.svg", label: "TS", altText: "TS" },
+        { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
+        { iconSrc: "assets/img/skills/ts.svg", label: "TypeScript", altText: "TypeScript" },
         { iconSrc: "assets/img/skills/java.svg", label: "Java", altText: "Java" },
         { iconSrc: "assets/img/skills/c.svg", label: "C++", altText: "C++" },
         { iconSrc: "assets/img/skills/python.svg", label: "Python", altText: "Python" }
@@ -105,7 +105,7 @@ const tabData = {
     web: [
         { iconSrc: "assets/img/skills/css.svg", label: "CSS", altText: "CSS" },
         { iconSrc: "assets/img/skills/html.svg", label: "HTML", altText: "HTML" },
-        { iconSrc: "assets/img/skills/js.svg", label: "JS", altText: "JS" },
+        { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
         { iconSrc: "assets/img/skills/nodejs.svg", label: "NodeJS", altText: "NodeJS" },
         { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
         { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
