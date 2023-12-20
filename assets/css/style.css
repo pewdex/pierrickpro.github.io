@@ -858,8 +858,24 @@ section {
   margin-bottom: 10px;
 }
 
+.portfolio-btn-custom-video {
+  background: #5eada8;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
 .portfolio-btn-custom:hover {
   background-color: #728394;
+  color: #ffffff;
+}
+
+.portfolio-btn-custom-video:hover {
+  background-color: #ff0000;
   color: #ffffff;
 }
 
