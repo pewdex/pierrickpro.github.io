@@ -616,6 +616,22 @@ section {
   border: 2px solid #5eada8;
 }
 
+.portfolio-btn-resume {
+  background: #5eada8;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.portfolio-btn-resume:hover {
+  background-color: #728394;
+  color: #ffffff;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -847,7 +863,7 @@ section {
   height: min-content;
 }
 
-.portfolio-btn-custom {
+.portfolio-btn-code {
   background: #5eada8;
   border: 0;
   padding: 10px 35px;
@@ -858,23 +874,23 @@ section {
   margin-bottom: 10px;
 }
 
-.portfolio-btn-custom-video {
-  background: #5eada8;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  width: fit-content;
-  margin-bottom: 10px;
-}
-
-.portfolio-btn-custom:hover {
+.portfolio-btn-code:hover {
   background-color: #728394;
   color: #ffffff;
 }
 
-.portfolio-btn-custom-video:hover {
+.portfolio-btn-video {
+  background: #5eada8;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.portfolio-btn-video:hover {
   background-color: #ff0000;
   color: #ffffff;
 }
