@@ -548,7 +548,9 @@ section {
 }
 
 .nav-pills .nav-link {
-  border: #5eada8
+  border: 1px solid #5eada8;
+  padding: 10px;
+  margin-right: 10px;
 }
 
 .nav-pills .nav-link.active {
