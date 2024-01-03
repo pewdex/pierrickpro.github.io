@@ -117,6 +117,7 @@ const tabData = {
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
+        { iconSrc: "assets/img/skills/kubernetes.svg", label: "Kubernetes", altText: "Kubernetes" },
         { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
         { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
