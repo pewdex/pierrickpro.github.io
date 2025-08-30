@@ -81,14 +81,12 @@ const tabData = {
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
         { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
-        { iconSrc: "assets/img/skills/pytorch.svg", label: "PyTorch", altText: "PyTorch" },
         { iconSrc: "assets/img/skills/jira.svg", label: "Jira", altText: "Jira" },
         { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
         { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
         { iconSrc: "assets/img/skills/sonarqube.svg", label: "SonarQube", altText: "SonarQube" },
         { iconSrc: "assets/img/skills/google-app-script.svg", label: "Google App Script", altText: "Google App Script" },
         { iconSrc: "assets/img/skills/gitlab.svg", label: "GitLab", altText: "GitLab" },
-        { iconSrc: "assets/img/skills/sklearn.svg", label: "scikit-learn", altText: "scikit-learn" },
         { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
         { iconSrc: "assets/img/skills/dot-net-core.svg", label: ".NET Core", altText: ".NET Core" },
         { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
@@ -110,16 +108,10 @@ const tabData = {
         { iconSrc: "assets/img/skills/nodejs.svg", label: "NodeJS", altText: "NodeJS" },
         { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
         { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
-        { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
-        { iconSrc: "assets/img/skills/sql-server.svg", label: "SQL Server", altText: "SQL Server" },
-        { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
-        { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
         { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
         { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
-        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
-        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" }
     ],
     tools: [
         { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
@@ -135,16 +127,17 @@ const tabData = {
         { iconSrc: "assets/img/skills/sonarqube.svg", label: "SonarQube", altText: "SonarQube" },
         { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" }
     ],
-    "data-analytics": [
+    "data": [
         { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
         { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
         { iconSrc: "assets/img/skills/dbt.svg", label: "dbt", altText: "dbt" },
         { iconSrc: "assets/img/skills/sql-server.svg", label: "SQL Server", altText: "SQL Server" },
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
-        { iconSrc: "assets/img/skills/sklearn.svg", label: "scikit-learn", altText: "scikit-learn" },
-        { iconSrc: "assets/img/skills/pytorch.svg", label: "PyTorch", altText: "PyTorch" },
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
+        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
+        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
+        { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
     ],
 };
 
