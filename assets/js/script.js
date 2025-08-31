@@ -3,7 +3,7 @@
 */
 
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("all").style.display = "block";
+    document.getElementById("tab1").style.display = "block";
 });
 
 function openTab(evt, tabName) {
@@ -53,91 +53,108 @@ function openTab(evt, tabName) {
 
 document.addEventListener("DOMContentLoaded", function () {
     // Display the "All" tab by default
-    openTab({ currentTarget: document.querySelector('.tablinks') }, 'all');
+    openTab({ currentTarget: document.querySelector('.tablinks') }, 'tab1');
 });
 
 // Customize this function to return an array of icon sources, labels, and alt text for each tab
 const tabData = {
-    all: [
+    tab1: [
         { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
         { iconSrc: "assets/img/skills/ts.svg", label: "TypeScript", altText: "TypeScript" },
+        { iconSrc: "assets/img/skills/golang.svg", label: "Go", altText: "Go" },
         { iconSrc: "assets/img/skills/java.svg", label: "Java", altText: "Java" },
         { iconSrc: "assets/img/skills/csharp.svg", label: "C#", altText: "C#" },
         { iconSrc: "assets/img/skills/python.svg", label: "Python", altText: "Python" },
         { iconSrc: "assets/img/skills/c.svg", label: "C++", altText: "C++" },
         { iconSrc: "assets/img/skills/css.svg", label: "CSS", altText: "CSS" },
         { iconSrc: "assets/img/skills/html.svg", label: "HTML", altText: "HTML" },
-        
-        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
-        { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
-        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
         { iconSrc: "assets/img/skills/nodejs.svg", label: "NodeJS", altText: "NodeJS" },
+        { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
+
+        { iconSrc: "assets/img/skills/terraform.svg", label: "Terraform", altText: "Terraform" },
+        { iconSrc: "assets/img/skills/auth0.svg", label: "Auth0 by Okta", altText: "Auth0" },
+        { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
+        { iconSrc: "assets/img/skills/azure.svg", label: "Azure", altText: "Azure" },
+        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
+        { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
+        { iconSrc: "assets/img/skills/hashicorp-vault.svg", label: "HashiCorp Vault", altText: "HashiCorp Vault" },
+        { iconSrc: "assets/img/skills/jfrog.svg", label: "JFrog Artifactory", altText: "JFrog" },
+        { iconSrc: "assets/img/skills/sonarqube.svg", label: "SonarQube", altText: "SonarQube" },
+        { iconSrc: "assets/img/skills/splunk.svg", label: "Splunk", altText: "Splunk" },
+        { iconSrc: "assets/img/skills/servicenow.svg", label: "ServiceNow", altText: "ServiceNow" },
+        { iconSrc: "assets/img/skills/dynatrace.svg", label: "Dynatrace", altText: "Dynatrace" },
+
+        { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
+        { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
+
+        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
+        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
+        { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
         { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
         { iconSrc: "assets/img/skills/dbt.svg", label: "dbt", altText: "dbt" },
-        { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
         { iconSrc: "assets/img/skills/sql-server.svg", label: "SQL Server", altText: "SQL Server" },
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
-        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
-        { iconSrc: "assets/img/skills/jira.svg", label: "Jira", altText: "Jira" },
-        { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
-        { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
-        { iconSrc: "assets/img/skills/sonarqube.svg", label: "SonarQube", altText: "SonarQube" },
+        { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
+
         { iconSrc: "assets/img/skills/google-app-script.svg", label: "Google App Script", altText: "Google App Script" },
+        { iconSrc: "assets/img/skills/jira.svg", label: "Jira", altText: "Jira" },
+        { iconSrc: "assets/img/skills/concourse.svg", label: "Concourse", altText: "Concourse" },
+        { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" },
         { iconSrc: "assets/img/skills/gitlab.svg", label: "GitLab", altText: "GitLab" },
-        { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
-        { iconSrc: "assets/img/skills/dot-net-core.svg", label: ".NET Core", altText: ".NET Core" },
-        { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
-        { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
-        { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" }
     ],
-    programming: [
+    // Programming
+    tab2: [
         { iconSrc: "assets/img/skills/csharp.svg", label: "C#", altText: "C#" },
         { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
         { iconSrc: "assets/img/skills/ts.svg", label: "TypeScript", altText: "TypeScript" },
+        { iconSrc: "assets/img/skills/golang.svg", label: "Go", altText: "Go" },
         { iconSrc: "assets/img/skills/java.svg", label: "Java", altText: "Java" },
         { iconSrc: "assets/img/skills/c.svg", label: "C++", altText: "C++" },
         { iconSrc: "assets/img/skills/python.svg", label: "Python", altText: "Python" }
     ],
-    web: [
+    // Web Development
+    tab3: [
         { iconSrc: "assets/img/skills/css.svg", label: "CSS", altText: "CSS" },
         { iconSrc: "assets/img/skills/html.svg", label: "HTML", altText: "HTML" },
-        { iconSrc: "assets/img/skills/js.svg", label: "JavaScript", altText: "JavaScript" },
         { iconSrc: "assets/img/skills/nodejs.svg", label: "NodeJS", altText: "NodeJS" },
-        { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
-        { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
-        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
-        { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
         { iconSrc: "assets/img/skills/angular.svg", label: "Angular", altText: "Angular" },
         { iconSrc: "assets/img/skills/flask.svg", label: "Flask", altText: "Flask" },
+        { iconSrc: "assets/img/skills/spring.svg", label: "Spring", altText: "Spring" },
+        { iconSrc: "assets/img/skills/auth0.svg", label: "Auth0 by Okta", altText: "Auth0" }
     ],
-    tools: [
-        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
-        { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
-        { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
-        { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
-        { iconSrc: "assets/img/skills/jira.svg", label: "Jira", altText: "Jira" },
+    // Cloud & DevOps
+    tab4: [
         { iconSrc: "assets/img/skills/aws.svg", label: "AWS", altText: "AWS" },
-        { iconSrc: "assets/img/skills/google-app-script.svg", label: "Google App Script", altText: "Google App Script" },
-        { iconSrc: "assets/img/skills/gitlab.svg", label: "GitLab", altText: "GitLab" },
-        { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
+        { iconSrc: "assets/img/skills/azure.svg", label: "Azure", altText: "Azure" },
+        { iconSrc: "assets/img/skills/heroku.svg", label: "Heroku", altText: "Heroku" },
         { iconSrc: "assets/img/skills/docker.svg", label: "Docker", altText: "Docker" },
+        { iconSrc: "assets/img/skills/terraform.svg", label: "Terraform", altText: "Terraform" },
+        { iconSrc: "assets/img/skills/hashicorp-vault.svg", label: "HashiCorp Vault", altText: "HashiCorp Vault" },
+        { iconSrc: "assets/img/skills/jfrog.svg", label: "JFrog Artifactory", altText: "JFrog" },
         { iconSrc: "assets/img/skills/sonarqube.svg", label: "SonarQube", altText: "SonarQube" },
-        { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" }
+        { iconSrc: "assets/img/skills/splunk.svg", label: "Splunk", altText: "Splunk" },
+        { iconSrc: "assets/img/skills/servicenow.svg", label: "ServiceNow", altText: "ServiceNow" },
+        { iconSrc: "assets/img/skills/dynatrace.svg", label: "Dynatrace", altText: "Dynatrace" },
+        { iconSrc: "assets/img/skills/git.svg", label: "Git", altText: "Git" },
+        { iconSrc: "assets/img/skills/github.svg", label: "GitHub", altText: "GitHub" },
+        { iconSrc: "assets/img/skills/gitlab.svg", label: "GitLab", altText: "GitLab" },
+        { iconSrc: "assets/img/skills/concourse.svg", label: "Concourse", altText: "Concourse" },
     ],
-    "data": [
-        { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
+    // Data & Analytics
+    tab5: [
         { iconSrc: "assets/img/skills/snowflake.svg", label: "Snowflake", altText: "Snowflake" },
         { iconSrc: "assets/img/skills/dbt.svg", label: "dbt", altText: "dbt" },
         { iconSrc: "assets/img/skills/sql-server.svg", label: "SQL Server", altText: "SQL Server" },
         { iconSrc: "assets/img/skills/postgresql.svg", label: "Postgres", altText: "Postgres" },
         { iconSrc: "assets/img/skills/mysql.svg", label: "MySQL", altText: "MySQL" },
         { iconSrc: "assets/img/skills/looker-studio.svg", label: "Looker Studio", altText: "Looker Studio" },
-        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
-        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" },
+        { iconSrc: "assets/img/skills/powerbi.svg", label: "Power BI", altText: "Power BI" },
         { iconSrc: "assets/img/skills/redis.svg", label: "Redis", altText: "Redis" },
+        { iconSrc: "assets/img/skills/kafka.svg", label: "Kafka", altText: "Kafka" },
+        { iconSrc: "assets/img/skills/rabbitmq.svg", label: "RabbitMQ", altText: "RabbitMQ" }
     ],
 };
 
